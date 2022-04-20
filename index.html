@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-slate-500">
+    <nav class=" py-5 px-5 bg-slate-400 flex justify-between item-center">
+        <img class="w-12 mx-5" src="https://png.pngtree.com/element_pic/00/16/09/2057e0eecf792fb.jpg" alt="">
+        <ul class="mx-5 flex item-center">
+            <li class="mx-5 py-3 text-bold text-2xl">
+                Home
+            </li >
+            <li class="mx-5 py-3 text-2xl">
+                About
+            </li >
+            <li class="mx-5 text-2xl bg-violet-500 rounded-full py-3 px-3  hover:bg-sky-700 ">
+                Login Hare
+            </li >
+            
+        </ul>
+    </nav>
+    <div class="container mx-auto px-4 item-center mt-28" >
+       <div  class="w-5/6 flex flex-col bg-white px-4 py-4 max-w-lg mx-auto rounded-lg shadow-lg"> 
+        <div class="flex justify-center items-center">
+            <a class="px-2 py-1   text-black-500  text-2xl" href="#"> Student Gread calculator</a>
+        </div>
+        <div class="flex justify-between py-4 px-4">
+            <img class="w-2/5 h-1/2" src="https://avatars.githubusercontent.com/u/67502271?v=4" alt="">
+            
+            <div>
+                <div class="mb-2">
+                   
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="wd" type="text" placeholder="Web Programming">
+                  </div> 
+                  <div class="mb-2">
+                   
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="maths" type="text" placeholder="Math">
+                  </div>  
+                  <div class="mb-2">
+                   
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="comp" type="text" placeholder="Computer">
+                  </div> 
+                  <div class="mb-2">
+                   
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="phy" type="text" placeholder="physics">
+                  </div> 
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onclick="calcy()">
+                    Show persentage
+                  </button> 
+                 
+            </div>
+            
+        </div>
+       <p class="text-black" id="showData">
+           hhh
+       </p>
+      
+    </div>
+    <script src="./JS/style.js"></script>
+</body>
+</html> 
